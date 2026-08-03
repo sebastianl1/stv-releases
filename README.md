@@ -33,13 +33,23 @@ cambiar enlaces.
 
 ## Cómo descargar
 
-Desde GitHub Releases:
+El APK se sirve por **dos vías** (el botón de la web usa el mirror, que es la
+más confiable en celulares):
 
-```
-https://github.com/sebastianl1/stv-releases/releases/latest/download/STV-PhosTv-arm64-v8a.apk
-```
+- **Mirror (directo, sin redirects)** — recomendado para Android:
+  ```
+  https://raw.githubusercontent.com/sebastianl1/stv-releases/main/STV-PhosTv-arm64-v8a.apk
+  ```
+- **GitHub Releases (CDN oficial)**:
+  ```
+  https://github.com/sebastianl1/stv-releases/releases/latest/download/STV-PhosTv-arm64-v8a.apk
+  ```
 
 O desde el botón "Descargar APK" en https://stv-phostv.pages.dev.
+
+> Nota: el mirror (archivo del repo) y el release asset son **el mismo APK**
+> firmado. El mirror se commitea en `main` de este repo; el release asset se
+> sube como adjunto del tag de versión correspondiente.
 
 ## Flujo de publicación (por versión nueva)
 
